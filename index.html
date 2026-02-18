@@ -18,11 +18,22 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:creator" content="@YogeshVadivel" />
     <meta name="twitter:image" content="/og-image.png" />
-    <script type="module" crossorigin src="/assets/index-jfHz2TUZ.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-bANg06Hc.css">
+    <script type="module" crossorigin src="/assets/index-BbY2WlLi.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-C7QUjXub.css">
   </head>
 
   <body>
     <div id="root"></div>
+    <!-- GitHub Pages SPA redirect receiver -->
+    <script>
+      (function(l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search.slice(1).split('&').map(function(s) {
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded + l.hash);
+        }
+      }(window.location))
+    </script>
   </body>
 </html>
